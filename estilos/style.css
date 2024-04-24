@@ -1,0 +1,97 @@
+*{
+	color:white;
+	font-family:Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+.navbar-text{
+	font-size: 17px
+}
+
+
+.section-signup{
+	color:white;
+	text-align: center;
+	background-position: absolute;
+	background-image:url("images/banner-bg.jpg");
+	background-size: cover;
+	padding: 25%;
+	background-position-y: 25%;
+}
+
+.section-search{
+	background-color: black;
+	padding: 50px 0;
+}
+
+.section-movie{
+	background-color: black;
+}
+
+.input-group{
+	margin:auto;
+}
+
+.navbar-form{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	display:block;
+}
+
+
+.pelis{
+	width: 60%;
+	right: auto;
+	height: 50%;
+
+}
+.col:hover{
+	transform: scale(1.1);
+	opacity: 1.2;
+}
+
+.col{
+	font-weight: bold;
+	text-align: center;
+	transition: transform 0.2s;
+	padding: 10px 0
+}
+
+.movies{
+	background-color: black;
+}
+
+.pagination{
+	background-color:black;
+	font-weight: bold;
+	padding: 20px 0
+}
+
+.pelis-aclamadas{
+	background-color:black;
+	font-weight: bold;
+	padding: 50px 0
+}
+
+div.aclamadas {
+	background-color: transparent;
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+	width: 70%;
+	margin: auto;
+  }
+
+div.aclamadas img {
+	width: 200px;
+}
+
+.pie{
+	font-weight: bold;
+	padding: 20px 0;
+}
